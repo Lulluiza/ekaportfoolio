@@ -60,11 +60,16 @@ nav {
 
         .dropdown-menu   {
         background-color: transparent;
-        text-align: left;
-
+        text-align: center;
+        min-width: initial;
       }
-      .selector-for-some-widget {
-  box-sizing: content-box;
+
+      .dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 }
 
         </style>
@@ -84,10 +89,10 @@ nav {
       <ul class="navbar-nav ml-auto">
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Drawings
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Pencil</a>
             <a class="dropdown-item" href="#">Color</a>
           </div>
@@ -96,7 +101,7 @@ nav {
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Paintings
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Water color</a>
             <a class="dropdown-item" href="#">Oil</a>
             <a class="dropdown-item" href="#">Gouache</a>
