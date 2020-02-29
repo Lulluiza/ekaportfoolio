@@ -1,0 +1,87 @@
+.semi {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .fullheight {
+    height: 100%;
+  }
+
+  body {
+    height: 100vh;
+    background: no-repeat black 30px 100px;
+  }
+
+  .app {
+    background: url(../chop-chop/bike.svg) red;
+  }
+
+
+  nav {
+    font-family: 'Raleway', 'sans–serif';
+  }
+
+  .navbar-dark .navbar-nav .active>.nav-link,
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show>.nav-link {
+    text-decoration: underline;
+  }
+
+  .navbar-nav {
+
+    margin-top: 22px;
+  }
+
+  .navbar-brand {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 48px;
+    text-shadow: 3px 0 13px #b3b3b3;
+  }
+
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .dropdown-item {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 14px;
+  }
+
+
+  .dropdown-menu {
+    background-color: transparent;
+    text-align: center;
+    min-width: initial;
+    top: 60%;
+  }
+
+  .dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+
+
+  .dropdown-item:hover {
+    color: #424242;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .bg-black {
+    background: url(portfolio.svg) no-repeat black 30px 150px;
+    height: 100%;
+  }
+
+
+  .social {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    line-height: 3;
+
+  }
