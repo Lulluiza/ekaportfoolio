@@ -33,7 +33,7 @@
   }
 
   .navbar-brand {
-    font-family: Montserrat;
+    font-family:  'Montserrat',  'sans-serif';
     text-transform: uppercase;
     font-size: 48px;
     text-shadow: 3px 0 13px #b3b3b3;
