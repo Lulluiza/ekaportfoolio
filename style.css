@@ -9,6 +9,7 @@
   body {
     height: 100vh;
     background: no-repeat black 30px 100px;
+    color: rgb(202, 202, 202);
   }
 
   .app {
